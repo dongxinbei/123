@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+shap
+statsmodels
+joblib
+lime
+altair==4.2.2
+streamlit==1.28.0
