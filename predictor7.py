@@ -134,5 +134,10 @@ if st.button("Predict"):
             "It is recommended to increase intraoperative blood reserve before surgery, prioritize combined spinal-epidural anesthesia (CSEA) in the absence of contraindications, select senior surgeons experienced with PFNA procedure."
             "closely monitor postoperative blood routine indicators."
         )
+    if predicted_class ==0:
+        advice = (
+            f"closely monitor postoperative blood routine indicators."
+        )
+        
         st.write(advice)
-    
+        
